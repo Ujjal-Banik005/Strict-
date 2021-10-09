@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BANNER PART START  */
+header{
+    background-color: #f6f9f9;
+}
+.navbar-light .navbar-nav .nav-link {
+color: #000;
+font-size: 18px;
+text-transform: capitalize;
+margin-left: 50px;
+padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0da5fa;
+}
+.banner-section{
+background-image: url(../img/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-section h1{
+
+text-align: center;
+
+font-size: 80px;
+
+color: #fff;
+
+padding: 15px 0;
+}
+.banner-section span{
+
+display: block;
+
+width: 100%;
+
+height: 1px;
+
+background: #0da5fa;
+
+/* padding: 30px 0; */
+}
+.banner-section p{
+
+text-align: center;
+
+color: #fff;
+
+padding: 25px 0;
+}
+.btn-call{
+
+color: #fff;
+
+text-align: center;
+
+display: flex;
+
+width: 20%;
+
+margin: auto;
+
+padding: 10px 10px;
+
+border: 1px solid #0da5fa;
+
+justify-content: center;
+}
+.btn-call:hover{
+    color: #fff;
+    background-color: #0da5fa;
+}
+.hg{
+    
+align-items: center;
+    
+justify-content: center;
+    
+min-height: 90vh;
+}
+/* BANNER PART END  */
+
+
+/* CONTENT-section start  */
+
+.CONTENT-section{
+
+padding: 60px 0;
+
+background: #f6f9f9;
+
+margin-top: 60px;
+}
+.CONTENT-section h4{
+
+text-align: center;
+
+font-size: 30px;
+}
+.CONTENT-section p{
+    
+text-align: center;
+    
+font-size: 16px;
+}
+
+/* pure-design  */
+
+.pure-design{
+
+padding: 70px 0;
+}
+.design{
+    
+}
+.icon{
+
+width: 13%;
+
+margin: auto;
+
+height: 45%;
+
+display: flex;
+
+background: #0da5fa;
+
+justify-content: center;
+
+align-items: center;
+}
+.icon i{
+
+font-size: 30px;
+
+color: #fff;
+}
+.i-conten{
+    
+}
+.i-conten h5{
+
+margin-top: 15px;
+
+font-size: 16px;
+}
+.i-conten p{font-size: 12px;}
+
+/* pure-design  */
+
+
+/* Showcase your work like a pro.  */
+
+.Showcase{
+
+background: #f6f9f9;
+
+padding: 65px 0;
+}
+.like-con{
+
+padding: 20px 0;
+}
+.like-con p{
+
+font-size: 15px;
+}
+.like-con h1{
+
+font-size: 33px;
+}
+.Showcase-img{position: relative;margin: 0;margin-bottom: 50px;}
+.Showcase-img img{
+    width: 100%;
+}
+.Showcase-img::after{
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background-color: #0da5fa;
+opacity: .5;
+transition: .4s all ease-in-out;
+}
+.Showcase-img:hover::after{
+   width: 100%;
+   height: 100%;
+}
+.list-icon{
+
+position: absolute;
+
+top: 50%;
+
+left: 0%;
+opacity: 0;
+
+transform: translate(-50%, -50px);
+
+transition: .4s all ease-in-out;
+}
+.list-icon ul{
+
+list-style: none;
+
+display: flex;
+
+padding: 0;
+
+margin: 0;
+
+border-radius: 6px;
+
+margin: 0;
+}
+.list-icon ul li{
+
+width: 51px;
+}
+.list-icon ul li i{
+    
+font-size: 23px;
+    
+border: 1px solid #ffffff;
+    
+width: 40px;
+    
+height: 40px;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+color: rgb(255, 255, 255);
+    
+border-radius: 5px;
+}
+.Showcase-img:hover .list-icon{
+opacity: 100;
+left: 50%;
+}
+
+/* Showcase your work like a pro.  */
+
+
+
+
+    /* from-section  */
+    .Consultaion_section  .con_heading h2{
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .Consultaion_section{
+        background-image: url(../img/form-banner-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 40px;
+        margin: 30px 0;
+    }
+    .Consultaion_section form input{
+        background: transparent;
+        border: none;
+        border: 1px solid #fff;
+        margin-bottom: 20px;
+    }
+    .Consultaion_section form input::placeholder{
+        color: #fff;
+    }
+    .form-control:focus {
+        color: #fff;
+        background-color: transparent;
+        border-color: #fff;
+        outline: 0;
+        box-shadow: none;
+    }
+    .form-control{
+        color: #fff;
+    }
+    .Consultaion_section form textarea{
+        background-color: transparent;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .Consultaion_section form textarea::placeholder{ 
+        background-color: transparent;
+        color: #fff;
+    }
+    .Consultaion_section form textarea:focus{
+        background-color: transparent;
+        color: #fff;
+    
+    }
+    .send_btn{
+        background: transparent;
+        border: transparent;
+        background: #FB8F2C;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        width: auto;
+        padding: 0px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .send_btn:hover{
+        color: #fff;
+        background:#c0620a;
+    }
